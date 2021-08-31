@@ -1,0 +1,146 @@
+
+/*-------parallax--------*/
+
+.bgimg{
+	background-image: url('parallax.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	height: 500px;
+}
+
+/*-------header--------*/
+
+.header{
+	padding-top: 150px;
+	font-size: 100px;
+	font-weight: bold;
+	box-sizing: border-box;
+}
+.header h2{
+	font-size: 75px;
+	margin-bottom: 100px;
+	font-weight: bolder;
+}
+
+/*-------sevices--------*/
+
+.services{
+	margin-top: 20px;
+}
+.services h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 70px;
+	padding: 50px;
+}
+.card{
+	margin-top: 40px;
+    margin-bottom: 10px;
+    
+}
+.card img{
+	height: 250px;
+}
+
+/*-------Our Team--------*/
+
+.admin{
+	margin-top: 40px;
+}
+.admin h2{
+	font-size: 70px;
+	font-weight: bold;
+}
+.admin h4{
+	padding-top: 10px;
+}
+.admin p{
+	font-size: 25px;
+	padding-bottom: 25px;
+}
+
+/*-------Our Successful Students--------*/
+
+.slider{
+	margin-top: 50px;
+}
+.carousel-inner{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 15px;
+}
+.slider h2{
+	padding: 25px;
+	font-size: 70px;
+	font-weight: bold;
+}
+.slider p{
+	font-size: 25px;
+	padding-bottom: 25px;
+}
+
+/*-------footter--------*/
+
+footer{
+	padding: 15px;
+}
+.nav-item{
+	padding-left: 20px;
+}
+
+/*-------for small devices--------*/
+@media (max-width: 575px) { 
+	.admin h2{
+		font-size: 55px;
+	}
+	.admin h4{
+		padding-bottom: 25px;
+	}
+	.admin p{
+		font-size: 20px;
+	}
+	.slider h2{
+		font-size: 55px;
+	}
+	.slider p{
+		font-size: 18px;
+	}
+	.services h2{
+		font-size: 55px;
+	}
+	.header h2{
+		font-size: 60px;
+		padding-bottom: 20px;
+		font-weight: bold;
+	}
+	.header{
+		padding-bottom: 5px;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
